@@ -26,7 +26,7 @@
   --text-color-3: #2C2C2C;
   --text-light: #f6f6f6;
 
-  --title-color: #343a40;
+  --title-color: #343a40; 
   --subtitle-color: #838590;
 
   --btn-secondary: #616161;
@@ -82,9 +82,9 @@ body.dark-mode {
 
   --text-color-3: #4f4f61;
   --text-color-1: #818898;
-  --title-color:#e7ebed;
+  /*--title-color:#e7ebed;
 
- /*  --accent-color: #41ab5d;
+   --accent-color: #41ab5d;
   --accent-color-rgb: 54, 228, 38; */
 
   --line-clr: #42434a;
