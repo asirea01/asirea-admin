@@ -78,52 +78,7 @@
 }
 
 body.dark-mode {
-  --bg-body: #0f111a;
-
-  --text-color-3: #4f4f61;
-  --text-color-1: #818898;
-  /*--title-color:#e7ebed;
-
-   --accent-color: #41ab5d;
-  --accent-color-rgb: 54, 228, 38; */
-
-  --line-clr: #42434a;
-  --hover-clr: #222533;
-
-  --warning-rgb: 248,152,17;
-
-  --aside-bg: #22252a;
-  --nav-link-active: #22252a;
-  --nav-link-active-color: #dbdde1;
-  --nav-link-active-hover: #393e46;
-  --active-link: #7d868182;
-
-  --tertiary-bg: #22252A;
-  --tertiary-bg-1: var(--nav-link-active-color);
-  --tertiary-bg-rgb: 34,37,42;
-
-  --border-color: #afafaf;
-  --border-color-1: #3d3e41;
-
-  /* Variables para vistas de contenido - Dark Mode */
-  --content-bg: #232724;
-  --content-bg-rgb: 26, 29, 36;
-  --pattern-color: #2e5540;
-  --pattern-opacity: 0.15;
-  --bg-green: #1e2a24;
-  --bg-green-1: #243a2e;
-  --card-bg: rgba(34, 37, 42, 0.9);
-  --card-bg-solid: #22252a;
-  --empty-state-bg: rgba(34, 37, 42, 0.8);
-  --btn-hover-green: #3d6b52;
-  --btn-primary-text: #ffffff;
-
-  /* Variables para formularios - Dark Mode */
-  --form-bg: rgba(34, 37, 42, 0.6);
-  --form-bg-hover: rgba(34, 37, 42, 0.8);
-  --form-input-bg: rgb(202 207 214 / 90%);
-  --form-input-bg-focus: rgb(149 172 163 / 95%);
-  --form-container-bg: rgba(34, 37, 42, 0.7);
+   /* Variables de modo oscuro aqui */
 }
 *{
   margin: 0;

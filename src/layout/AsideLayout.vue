@@ -143,7 +143,7 @@ function logout() {
   width: 250px;
   padding: .5em 0;
   background: var(--primary-dark-color);
-  box-shadow: 5px 0px 16px 0px rgba(0, 0, 0, .5);
+  box-shadow: 5px 0px 6px -5px rgba(0, 0, 0, 0.5);
 
   position: sticky;
   top: var(--top-var);

@@ -4,11 +4,17 @@
       <span class="visually-hidden">Loading...</span>
     </div> -->
     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
-      <path fill="currentColor"
-        d="M12,23a9.63,9.63,0,0,1-8-9.5,9.51,9.51,0,0,1,6.79-9.1A1.66,1.66,0,0,0,12,2.81h0a1.67,1.67,0,0,0-1.94-1.64A11,11,0,0,0,12,23Z">
-        <animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate"
-          values="0 12 12;360 12 12" />
-      </path>
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path stroke-dasharray="18" d="M12 3c4.97 0 9 4.03 9 9">
+          <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="18;0" />
+          <animateTransform attributeName="transform" dur="1.5s" repeatCount="indefinite" type="rotate"
+            values="0 12 12;360 12 12" />
+        </path>
+        <path stroke-dasharray="60"
+          d="M12 3c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9c0 -4.97 4.03 -9 9 -9Z" opacity="0.3">
+          <animate fill="freeze" attributeName="stroke-dashoffset" dur="1.2s" values="60;0" />
+        </path>
+      </g>
     </svg>
   </div>
 </template>
